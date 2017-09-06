@@ -1,0 +1,27 @@
+{
+    "search.exclude": {
+        "# Project dependencies": true,
+        "# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git": true,
+        "node_modules": true,
+        ".cache/": true,
+        "# Build directory": true,
+        "public/": true,
+        ".DS_Store": true,
+        "yarn-error.log": true,
+        "yarn.lock": true,
+        "*.log": true
+    },
+    "files.exclude": {
+        "# Project dependencies": true,
+        "# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git": true,
+        "node_modules": true,
+        ".cache/": true,
+        "# Build directory": true,
+        "public/": true,
+        ".DS_Store": true,
+        "yarn-error.log": true,
+        "yarn.lock": true,
+        "*.log": true
+    },
+    "editor.formatOnSave": true
+}
