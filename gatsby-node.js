@@ -23,6 +23,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
     const { createPage } = boundActionCreators;
 
     return new Promise((resolve, reject) => {
+        // get all the markdown files and pull out their slug
         graphql(`
         {
             allMarkdownRemark {
@@ -37,6 +38,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           }
         `).then(result => {
             result.data.allMarkdownRemark.edges.map(({ node: post }) => {
+                // create a gatsby page using a React component for each markdown file we found
                 createPage({
                     path: post.fields.slug,
                     component: path.resolve("./src/templates/blog-post.js"),
