@@ -23,5 +23,6 @@
         "yarn.lock": true,
         "*.log": true
     },
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.fontSize": 20
 }

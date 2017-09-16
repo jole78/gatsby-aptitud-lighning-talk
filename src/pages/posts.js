@@ -9,7 +9,7 @@ const BlogPostsListing = ({ data }) => (
                 <li>
                     <Link to={post.fields.slug}>
                         <h3>
-                            {post.frontmatter.title}{" "}
+                            {post.frontmatter.title}
                             <span>— {post.frontmatter.date}</span>
                         </h3>
                         <p>{post.excerpt}</p>
@@ -19,8 +19,6 @@ const BlogPostsListing = ({ data }) => (
         </ul>
     </div>
 );
-
-export default BlogPostsListing;
 
 export const query = graphql`
     query BlogPostsListingQuery {
@@ -41,3 +39,5 @@ export const query = graphql`
         }
     }
 `;
+
+export default BlogPostsListing;

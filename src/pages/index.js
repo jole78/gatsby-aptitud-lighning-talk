@@ -12,9 +12,7 @@ const IndexPage = ({ data }) => (
     </div>
 );
 
-export default IndexPage;
-
-export const pageQuery = graphql`
+export const query = graphql`
     query IndexPageQuery {
         site {
             siteMetadata {
@@ -23,3 +21,5 @@ export const pageQuery = graphql`
         }
     }
 `;
+
+export default IndexPage;
