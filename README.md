@@ -1,13 +1,15 @@
-# gatsby-starter-default
-The default Gatsby starter
+# gatsby-aptitud-ligning-talk
+The code from my gatsby lighning talk
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+For an overview of gatsby [Gatsby documentation](https://www.gatsbyjs.org/docs/)
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+commands (assuming you have yarn installed, else replace with npm run [command])
 ```
-gatsby new gatsby-example-site
+yarn install
+yarn start (developing)
+yarn build
 ```
 
 ## Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jole78/gatsby-aptitud-lighning-talk)
